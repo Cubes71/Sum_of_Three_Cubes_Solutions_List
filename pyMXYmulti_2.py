@@ -13,8 +13,8 @@ import os
 # ============================
 # ====== CONFIG (edit) =======
 # ============================
-M_START = 5_400_001
-M_END   = 5_420_000
+M_START = 5_450_001
+M_END   = 5_500_000
 
 CORES = 16                   # runs exactly this many cores regardless of CPU count
 PROGRESS_INTERVAL = 50      # per worker: print every this many m's processed
