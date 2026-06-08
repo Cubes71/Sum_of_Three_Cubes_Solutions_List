@@ -38,7 +38,7 @@ q is the difference between the magnitudes of X and Y,
 s is the section number,
 sl is the section line.
 
-Sections are determined solely by the difference between the absolute values of X and Z, while section lines are determined solely by the difference between the absolute values of Y and Z.
+Sections are determined solely by the difference between the absolute values of X and Z, while section lines are determined solely by the difference between the absolute values of (Y and Z) + 1.
 
 Every solution belongs to exactly one section and one section line.
 
@@ -46,45 +46,33 @@ Example
 
 For the solution:
 
-X = 100, Y = -95, Z = -90
+X = 109, Y = -87, Z = -86
 
 we use the magnitudes:
 
-|X| = 100, |Y| = 95, |Z| = 90
+|X| = 109, |Y| = 87, |Z| = 86
 
 Therefore:
 
-q = 100 − 95 = 5
+q = 109 − 87 = 22
 
-s = 100 − 90 = 10
+s = 109 − 86 = 23
 
-sl = 95 − 90 + 1 = 6
+sl = 87 − 86 + 1 = 2
 
-This solution is located in Section 10, Section Line 6.
+n = 470
 
-The +-- Family
+This solution is located in Section 23, Section Line 2.
 
-The first worksheet contains solutions to:
+The files contains solutions to:
 
 X³ + (-Y)³ + (-Z)³ = n
 
-equivalently,
-
-X³ − Y³ − Z³ = n
-
-Solutions are grouped by section and section line using the absolute values of the variables.
-
-The -++ Family
-
-The second worksheet contains solutions to:
+and
 
 (-X)³ + Y³ + Z³ = n
 
-equivalently,
-
-Y³ + Z³ − X³ = n
-
-The same section and section-line definitions are used, allowing direct comparison with the +-- family.
+The same section and section-line definitions are used, allowing direct comparison with the +-- and -++ families.
 
 Purpose
 
@@ -100,4 +88,4 @@ Persistence or disappearance of section lines.
 Comparisons between the +-- and -++ sign families.
 Structural relationships among q, s, and sl.
 
-The data were generated computationally and sorted by section to expose geometric and arithmetic patterns within the solution space.
+The data was generated computationally by the .py file and sorted by section to expose geometric and arithmetic patterns within the solution space.
