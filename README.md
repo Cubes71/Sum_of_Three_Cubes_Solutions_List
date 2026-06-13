@@ -85,6 +85,8 @@ Distribution of solutions across section lines.
 Growth of solution magnitudes.
 Density of solutions as section number increases.
 Persistence or disappearance of section lines.
+If you have any questions, or would like to run the .py script for certain sections, and for publication here, please email me and I will walk you through running the script.
+Thank you.
 Comparisons between the +-- and -++ sign families.
 Structural relationships among q, s, and sl.
 
