@@ -1,6 +1,6 @@
 Sum of Three Cubes Solutions List: +-- and -++ Families
 
-This repository contains computed integer solutions to the Diophantine equations
+This repository contains on-going computed integer solutions to the Diophantine equations
 
 X³ + (-Y)³ + (-Z)³ = n
 
